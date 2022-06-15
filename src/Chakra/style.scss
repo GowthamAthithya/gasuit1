@@ -1,0 +1,182 @@
+.rotatingChakra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    .chakra-content {
+      width: 90vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+    .grid1 {
+      @mixin on-circle($item-count, $circle-size, $item-size) {
+        z-index: 99;
+        position: absolute;
+        width:  $circle-size;
+        height: $circle-size;
+        padding: 0;
+        border-radius: 50%; 
+        list-style: none;       
+        
+        > .rotationGrids {
+          display: block;
+          position: absolute;
+          top:  50%; 
+          left: 50%;
+          width:  $item-size;
+          height: $item-size;
+          margin: -($item-size / 2);
+          color:#fff;
+          border-radius: 1rem;
+          background-color: rgba(255, 255, 255, 0.06);
+          text-align: center;
+          $angle: (360 / $item-count);
+          $rot: 2.28;
+          height: 10em;
+          padding: 3em 4em 2em 4em;
+          i {
+            font-size: 2rem;
+          }
+          @for $i from 1 through $item-count {
+            &:nth-of-type(#{$i}) {
+              transform: 
+                rotate($rot * 1deg) 
+                translate($circle-size / 2) 
+                rotate($rot * 40deg);
+            }
+      
+            $rot: $rot + $angle;
+          }
+        }
+      }
+      img { 
+        display: block; 
+        max-width: 100%; 
+        border-radius: 50%;
+        filter: grayscale(100%);
+        transition: .15s;
+        
+        &:hover,
+        &:active {
+          filter: grayscale(0);
+        }
+      }
+      @include on-circle($item-count: 8, $circle-size: 40em, $item-size: 12em); 
+      margin: 10em 5em 5em 2em;
+    }
+    .grid2 {
+      @mixin on-circle($item-count, $circle-size, $item-size) {
+        z-index: 98;
+        position: absolute;
+        width:  $circle-size;
+        height: $circle-size;
+        padding: 0;
+        border-radius: 50%; 
+        list-style: none;       
+        
+        > .rotationGrids {
+          display: block;
+          position: absolute;
+          top:  50%; 
+          left: 50%;
+          width:  $item-size;
+          height: $item-size;
+          margin: -($item-size / 2);
+          color:#fff;
+          border-radius: 1rem;
+          background-color: rgba(255, 255, 255, 0.06);
+          text-align: center;
+          $angle: (360 / $item-count);
+          $rot: 2.28;
+          height: 10em;
+          padding: 3em 4em 2em 4em;
+          i {
+            font-size: 2rem;
+          }
+          @for $i from 1 through $item-count {
+            &:nth-of-type(#{$i}) {
+              transform: 
+                rotate($rot * 1deg) 
+                translate($circle-size / 2) 
+                rotate($rot * 40deg);
+            }
+      
+            $rot: $rot + $angle;
+          }
+        }
+      }
+      img { 
+        display: block; 
+        max-width: 100%; 
+        border-radius: 50%;
+        filter: grayscale(100%);
+        transition: .15s;
+        
+        &:hover,
+        &:active {
+          filter: grayscale(0);
+        }
+      }
+      @include on-circle($item-count: 8, $circle-size: 60em, $item-size: 15em); 
+      margin: 5em auto 0;
+    }
+    .grid3 {
+      @mixin on-circle($item-count, $circle-size, $item-size) {
+        z-index: 97;
+        position: absolute;
+        width:  $circle-size;
+        height: $circle-size;
+        padding: 0;
+        border-radius: 50%; 
+        list-style: none;       
+        
+        > .rotationGrids {
+          display: block;
+          position: absolute;
+          top:  50%; 
+          left: 50%;
+          width:  $item-size;
+          height: $item-size;
+          margin: -($item-size / 2);
+          color:#fff;
+          border-radius: 1rem;
+          background-color: rgba(255, 255, 255, 0.06);
+          text-align: center;
+          $angle: (360 / $item-count);
+          $rot: 2.28;
+          height: 12em;
+          padding: 3em 4em 2em 4em;
+          @for $i from 1 through $item-count {
+            &:nth-of-type(#{$i}) {
+              transform: 
+                rotate($rot * 1deg) 
+                translate($circle-size / 2) 
+                rotate($rot * 40deg);
+            }
+      
+            $rot: $rot + $angle;
+          }
+        }
+      }
+      img { 
+        display: block; 
+        max-width: 100%; 
+        border-radius: 50%;
+        filter: grayscale(100%);
+        transition: .15s;
+        
+        &:hover,
+        &:active {
+          filter: grayscale(0);
+        }
+      }
+      @include on-circle($item-count: 8, $circle-size: 80em, $item-size: 6em); 
+      margin: 5em auto 0;
+    }
+    
+    
+  

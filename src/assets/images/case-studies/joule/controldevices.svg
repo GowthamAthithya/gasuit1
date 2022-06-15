@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="227px" height="254px" viewBox="0 0 227 254" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="100%" cy="0%" fx="100%" fy="0%" r="91.3776113%" gradientTransform="translate(1.000000,0.000000),scale(1.000000,0.673209),rotate(90.000000),scale(1.000000,0.975648),translate(-1.000000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.0434782609" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0259589681" offset="78.8934%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="368.025175%" cy="-43.3471726%" fx="368.025175%" fy="-43.3471726%" r="343.02255%" gradientTransform="translate(3.680252,-0.433472),scale(1.000000,0.673209),rotate(163.770785),scale(1.000000,0.522678),translate(-3.680252,0.433472)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.516134511" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="116.651346%" cy="-36.4416388%" fx="116.651346%" fy="-36.4416388%" r="229.231343%" gradientTransform="translate(1.166513,-0.364416),scale(0.666667,1.000000),rotate(125.107253),translate(-1.166513,0.364416)" id="radialGradient-3">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#F1F1F1" stop-opacity="0.859502001" offset="58.088411%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.331521739" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5" transform="translate(-210.000000, -407.000000)">
+            <g id="Group-2" transform="translate(182.000000, 407.000000)">
+                <g id="Group">
+                    <path d="M0.5,14.4732483 L0.5,377.5 L253.972998,377.5 L253.972998,0.528263939 L0.5,14.4732483 Z" id="Rectangle-3" stroke="url(#radialGradient-2)" fill="url(#radialGradient-1)"></path>
+                    <text id="Control-Devices" fill="url(#radialGradient-3)" font-family="CircularStd-Black, Circular Std" font-size="30" font-weight="700" line-spacing="36" letter-spacing="-0.6">
+                        <tspan x="36" y="97">Control</tspan>
+                        <tspan x="36" y="133">Devices</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="256px" viewBox="0 0 230 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.7%" y="-3.2%" width="109.4%" height="106.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <radialGradient cx="100%" cy="0%" fx="100%" fy="0%" r="91.3776113%" gradientTransform="translate(1.000000,0.000000),scale(1.000000,0.673209),rotate(90.000000),scale(1.000000,0.975648),translate(-1.000000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.0434782609" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0259589681" offset="78.8934%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="368.025175%" cy="-43.3471726%" fx="368.025175%" fy="-43.3471726%" r="343.02255%" gradientTransform="translate(3.680252,-0.433472),scale(1.000000,0.673209),rotate(163.770785),scale(1.000000,0.522678),translate(-3.680252,0.433472)" id="radialGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.516134511" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="116.651346%" cy="-36.4416388%" fx="116.651346%" fy="-36.4416388%" r="246.450416%" gradientTransform="translate(1.166513,-0.364416),scale(0.549618,1.000000),rotate(130.454694),translate(-1.166513,0.364416)" id="radialGradient-4">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#F1F1F1" stop-opacity="0.859502001" offset="58.088411%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.331521739" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5" transform="translate(-757.000000, -405.000000)">
+            <g id="Group-2" transform="translate(182.000000, 407.000000)">
+                <g id="Group-4" filter="url(#filter-1)" transform="translate(547.000000, 0.000000)">
+                    <path d="M0.516759777,14.4732483 L0.516759777,377.5 L253.989758,377.5 L253.989758,0.528263939 L0.516759777,14.4732483 Z" id="Rectangle-3-Copy-2" stroke="url(#radialGradient-3)" fill="url(#radialGradient-2)"></path>
+                    <text id="Conserve-Energy" fill="url(#radialGradient-4)" font-family="CircularStd-Black, Circular Std" font-size="30" font-weight="700" line-spacing="36" letter-spacing="-0.6">
+                        <tspan x="37" y="97">Conserve</tspan>
+                        <tspan x="37" y="133">Energy</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
