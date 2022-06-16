@@ -4,6 +4,10 @@ import React, { useState, useEffect } from "react";
 import AppBody from "./appBody";
 import "./App.scss";
 
+import { BrowserRouter } from "react-router-dom";
+import { Routes, Route /*Link*/ } from "react-router-dom";
+import Showreel from "./showreel";
+
 function App() {
   const [time, settime] = useState(false);
 
@@ -79,6 +83,12 @@ function App() {
           {time ? <AppBody /> : ""}
         </section>
       </main>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/ShowReels" element={<Showreel />} />
+          <Route path="/gasuit1" index element={<App />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

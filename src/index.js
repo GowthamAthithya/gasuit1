@@ -1,23 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 
-import { Routes, Route /*Link*/ } from "react-router-dom";
-import Showreel from "./showreel";
+// import { Routes, Route /*Link*/ } from "react-router-dom";
+// import Showreel from "./showreel";
 import "./Showreel.scss";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Routes>
         <Route path="/ShowReels" element={<Showreel />} />
         <Route path="/gasuit1" index element={<App />} />
       </Routes>
-    </BrowserRouter>
-    {/* <App /> */}
+    </BrowserRouter> */}
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
