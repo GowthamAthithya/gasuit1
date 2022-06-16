@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+
 import { Routes, Route /*Link*/ } from "react-router-dom";
 import Showreel from "./showreel";
 import "./Showreel.scss";
@@ -13,7 +14,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/ShowReels" element={<Showreel />} />
-        <Route path="/" element={<App />} />
+        <Route path="/gasuit1" index element={<App />} />
       </Routes>
     </BrowserRouter>
     {/* <App /> */}

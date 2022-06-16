@@ -1177,7 +1177,7 @@ function AppBody() {
             Feels like a <br />
             good fit?
           </h1>
-          <p>Let's kick some ass together</p>
+          <p>we can do anything together</p>
           <button>View all openings</button>
         </div>
         <img
@@ -1246,7 +1246,7 @@ function AppBody() {
       <footer className="footer">
         <div className="footer-left">
           <span>
-            <h1>Iaaxin</h1>
+            <h1>GA_SUIT</h1>
             <p>a product development studio</p>
           </span>
         </div>
